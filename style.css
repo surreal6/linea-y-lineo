@@ -7,6 +7,10 @@ header h2 {
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
 }
 
+.header-level-1 {
+  color: #efa627;
+}
+
 div#no-downloads {
   background: none;
 }
@@ -50,5 +54,5 @@ footer span.ribbon-outer {
 }
 
 #forkme_banner {
-  display: none;
+  display: none !important;
 }
