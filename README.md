@@ -20,8 +20,16 @@
     background: none;
   }
 
-  footer span.right-tail {
+  footer span.right-tail, footer span.left-tail  {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 29px;
+    /*background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;*/
     background: transparent url(small-ribbon-tail-sprite.png) 0 0 no-repeat;
+    position: absolute;
+    bottom: 5px;
+    z-index: 0;
   }
 </style>
 
