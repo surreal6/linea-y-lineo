@@ -19,8 +19,20 @@ header span.right-tail {
     right: -31px;
 }
 
+header h1 {
+  background-color: #a57e38;
+}
+
+
+
 header h2 {
+  background-color: #a57e38;
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
+}
+
+header span.ribbon-inner {
+  background-color: #d5a245;
+  border: 4px solid #a57e38;
 }
 
 .header-level-1 {
