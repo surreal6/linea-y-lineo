@@ -15,6 +15,14 @@
   img {
     max-width: 100px;
   }
+
+  footer {
+    background: none;
+  }
+
+  #right-tail {
+    background: transparent url(small-ribbon-tail-sprite.png) 0 0 no-repeat;
+  }
 </style>
 
 <div class='centered-content' style='width: 100%'>
