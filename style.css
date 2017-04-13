@@ -48,3 +48,7 @@ footer span.ribbon-outer {
 .license a {
   font-weight: bold;
 }
+
+a#forkme_banner {
+  display: none;
+}
