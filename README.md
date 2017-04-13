@@ -1,7 +1,7 @@
 <div class='centered-content' style='width: 100%'>
   <video class='video' controls loop style='width: 100%'>
-    <source src="video/lineaylineo_HD.webm" type="video/webm">
     <source src="video/lineaylineo_HD.mov"  type="video/mp4">
+    <source src="video/lineaylineo_HD.webm" type="video/webm">
     <track label="Español" kind="subtitles" srclang="es" src='subtitles/lineaylineo_es.vtt' default>
     <track label="English" kind="subtitles" srclang="en" src='subtitles/lineaylineo_en.vtt'>
     <track label="French" kind="subtitles" srclang="fr" src='subtitles/lineaylineo_fr.vtt'>
