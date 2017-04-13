@@ -1,4 +1,4 @@
-<div class='centered-content'>
+<div class='centered-content' style='width: 100%'>
   <video class='video' controls loop style='width: 100%'>
     <source src="lineaylineo_HD.mov"  type="video/mp4">
     <track label="Español" kind="subtitles" srclang="es" src='lineaylineo_es.vtt' default>
@@ -15,4 +15,6 @@ Translations by **María Velasco**.
 
 ### License
 
-![cc-by-nc-sa](http://es.creativecommons.org/blog/wp-content/uploads/2013/04/by-nc-sa.eu_petit.png)
+![cc-by-nc-sa](Cc-by-nc-sa_icon.svg.png)
+
+https://creativecommons.org/licenses/by-nc-sa/3.0/es/
