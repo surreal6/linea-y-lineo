@@ -1,58 +1,3 @@
-<style type="text/css">
-  body {
-    background: #2d2d2d;
-    color: white;
-  }
-
-  header h2 {
-    font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
-  }
-
-  div#no-downloads {
-    background: none;
-  }
-
-  img {
-    max-width: 100px;
-  }
-
-  footer {
-    background: none;
-  }
-
-  footer span.right-tail, footer span.left-tail  {
-    position: relative;
-    display: block;
-    width: 18px;
-    height: 29px;
-    /*background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;*/
-    background: transparent url(small-ribbon-tail-sprite.png) 0 0 no-repeat;
-    position: absolute;
-    bottom: 5px;
-    z-index: 0;
-  }
-
-  footer span.right-tail {
-    background-position: -18px 0;
-    right: -11px;
-  }
-  
-  footer span.ribbon-outer {
-    border-bottom: none;
-  }
-
-  .license {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .license a {
-    font-weight: bold;
-  }
-
-</style>
-
 <div class='centered-content' style='width: 100%'>
   <video class='video' controls loop style='width: 100%'>
     <source src="lineaylineo_HD.mov"  type="video/mp4">
@@ -68,9 +13,13 @@ Linea y lineo, un microrelato cartesiano by [Julia Olavarrieta](http://estoyhech
 
 Translations by **María Velasco**.
 
+Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
+
 ### License
 
 <div class='license'>
   <img src="Cc-by-nc-sa_icon.svg.png" alt='cc-by-nc-sa'>
   <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/">cc-by-nc-sa</a>
 </div>
+
+<link rel="stylesheet" type="text/css" href="style.css">
