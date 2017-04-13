@@ -43,8 +43,12 @@
 
   .license {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  .license a {
+    font-weight: bold;
   }
 
 </style>
