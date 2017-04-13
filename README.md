@@ -24,7 +24,4 @@ Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
   </a>
 </div>
 
-<br>
-<br>
-
 <link rel="stylesheet" type="text/css" href="style.css">
