@@ -4,6 +4,17 @@ You can use the [editor on GitHub](https://github.com/surreal6/lineaylineo/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+# VIDEO
+
+<div class='centered-content'>
+  <video class='video' controls loop>
+    <source src="lineaylineo_HD_FINAL_0000-1920.mov"  type="video/mp4">
+    <track label="Español" kind="subtitles" srclang="es" src='lineaylineo_es.vtt' default>
+    <track label="English" kind="subtitles" srclang="en" src='lineaylineo_en.vtt'>
+    <track label="French" kind="subtitles" srclang="fr" src='lineaylineo_fr.vtt'>
+  </video>
+</div>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
