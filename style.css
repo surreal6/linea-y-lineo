@@ -3,6 +3,22 @@ body {
   color: #bdbdbd;
 }
 
+header span.left-tail, header span.right-tail {
+  position: relative;
+  display: block;
+  width: 56px;
+  height: 105px;
+  background: transparent url(imgs/ribbon-tail-sprite.png) 0 0 no-repeat;
+  position: absolute;
+  bottom: -37px;
+  z-index: 0;
+}
+
+header span.right-tail {
+    background-position: -56px 0;
+    right: -31px;
+}
+
 header h2 {
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
 }
