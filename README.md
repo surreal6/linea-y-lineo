@@ -36,6 +36,10 @@
     background-position: -18px 0;
     right: -11px;
   }
+  
+  footer span.ribbon-outer {
+    border-bottom: none;
+  }
 
 </style>
 
