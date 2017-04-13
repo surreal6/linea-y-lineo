@@ -65,7 +65,6 @@ Translations by **María Velasco**.
 ### License
 
 <div class='license'>
-  
-![cc-by-nc-sa](Cc-by-nc-sa_icon.svg.png) [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/es/)
-
+  <img src="Cc-by-nc-sa_icon.svg.png" alt='cc-by-nc-sa'>
+  <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/">cc-by-nc-sa</a>
 </div>
