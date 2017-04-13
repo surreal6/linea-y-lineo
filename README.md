@@ -1,3 +1,13 @@
+<style type="text/css">
+  h2 {
+    font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
+  }
+
+  div#no-downloads {
+    background: none;
+  }
+</style>
+
 <div class='centered-content' style='width: 100%'>
   <video class='video' controls loop style='width: 100%'>
     <source src="lineaylineo_HD.mov"  type="video/mp4">
