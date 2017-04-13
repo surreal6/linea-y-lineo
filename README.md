@@ -1,10 +1,19 @@
 <style type="text/css">
-  h2 {
+  body {
+    background: #2d2d2d;
+    color: white;
+  }
+
+  header h2 {
     font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
   }
 
   div#no-downloads {
     background: none;
+  }
+
+  img {
+    max-width: 100px;
   }
 </style>
 
@@ -25,6 +34,4 @@ Translations by **María Velasco**.
 
 ### License
 
-![cc-by-nc-sa](Cc-by-nc-sa_icon.svg.png)
-
-https://creativecommons.org/licenses/by-nc-sa/3.0/es/
+![cc-by-nc-sa](Cc-by-nc-sa_icon.svg.png) [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/es/)
