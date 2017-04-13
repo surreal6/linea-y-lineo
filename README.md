@@ -31,6 +31,12 @@
     bottom: 5px;
     z-index: 0;
   }
+
+  footer span.right-tail {
+    background-position: -18px 0;
+    right: -11px;
+  }
+
 </style>
 
 <div class='centered-content' style='width: 100%'>
