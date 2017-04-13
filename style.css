@@ -3,6 +3,11 @@ body {
   color: #bdbdbd;
 }
 
+header span.ribbon-inner {
+  background-color: #d5a245;
+  border: 4px solid #a57e38;
+}
+
 header span.left-tail, header span.right-tail {
   position: relative;
   display: block;
@@ -23,20 +28,9 @@ header h1 {
   background-color: #a57e38;
 }
 
-
-
 header h2 {
   background-color: #a57e38;
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
-}
-
-header span.ribbon-inner {
-  background-color: #d5a245;
-  border: 4px solid #a57e38;
-}
-
-.header-level-1 {
-  color: #efa627;
 }
 
 div#no-downloads {
@@ -65,6 +59,11 @@ footer span.right-tail, footer span.left-tail  {
 footer span.right-tail {
   background-position: -18px 0;
   right: -11px;
+}
+
+footer span.ribbon-inner {
+    background-color: #d5a245;
+    border: 2px solid #a57e38;
 }
 
 footer span.ribbon-outer {
