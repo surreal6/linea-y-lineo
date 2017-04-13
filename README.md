@@ -9,7 +9,7 @@
 
 ### Credits
 
-Linea y lineo, un microrelato cartesiano by [Julia Olavarrieta](http://estoyhechountrapo.com/) y [Carlos Padial](http://surreal.asturnazari.com)
+Line and line, a cartesian short story by [Julia Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
 
 Translations by **María Velasco**.
 
