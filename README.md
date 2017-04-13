@@ -20,7 +20,7 @@
     background: none;
   }
 
-  #right-tail {
+  footer span.right-tail {
     background: transparent url(small-ribbon-tail-sprite.png) 0 0 no-repeat;
   }
 </style>
