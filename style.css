@@ -54,6 +54,10 @@ footer {
   background: none;
 }
 
+footer a {
+    color: #77a6c7;
+}
+
 footer span.right-tail, footer span.left-tail  {
   position: relative;
   display: block;
