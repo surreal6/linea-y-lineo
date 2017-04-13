@@ -33,6 +33,7 @@ header h1 {
 }
 
 header h2 {
+  color: #bdbdbd;
   background-color: #a57e38;
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
 }
