@@ -41,6 +41,10 @@
     border-bottom: none;
   }
 
+  .license {
+    display: flex;
+  }
+
 </style>
 
 <div class='centered-content' style='width: 100%'>
@@ -60,4 +64,8 @@ Translations by **María Velasco**.
 
 ### License
 
+<div class='license'>
+  
 ![cc-by-nc-sa](Cc-by-nc-sa_icon.svg.png) [cc-by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/es/)
+
+</div>
