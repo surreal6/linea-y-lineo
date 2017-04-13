@@ -18,8 +18,10 @@ Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
 ### License
 
 <div class='license'>
-  <img src="imgs/cc-by-nc-sa_icon.svg.png" alt='cc-by-nc-sa' href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/">
-  <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/">cc-by-nc-sa</a>
+  <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/">
+    <img src="imgs/cc-by-nc-sa_icon.svg.png" alt='cc-by-nc-sa'>
+    cc-by-nc-sa
+  </a>
 </div>
 
 <link rel="stylesheet" type="text/css" href="style.css">
