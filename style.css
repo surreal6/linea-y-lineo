@@ -38,6 +38,10 @@ header h2 {
   font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
 }
 
+.header-level-1 {
+  color: #a57e38;
+}
+
 div#no-downloads {
   background: none;
 }
