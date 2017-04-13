@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <div class='centered-content'>
   <video class='video' controls loop>
-    <source src="lineaylineo_HD_FINAL_0000-1920.mov"  type="video/mp4">
+    <source src="lineaylineo_HD.mov"  type="video/mp4">
     <track label="Español" kind="subtitles" srclang="es" src='lineaylineo_es.vtt' default>
     <track label="English" kind="subtitles" srclang="en" src='lineaylineo_en.vtt'>
     <track label="French" kind="subtitles" srclang="fr" src='lineaylineo_fr.vtt'>
@@ -46,3 +46,31 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+<div>
+  <div class="footer">
+    <table>
+      <tr>
+        <td>
+          <div class="title">
+            <h1>Linea y lineo</h1>
+            <h2>un microrelato cartesiano</h2>
+          </div>
+        </td>
+        <td>
+          <div class="author">
+            <h4>Julia Olavarrieta y Carlos Padial</h4>
+          </div>
+          <div class="credits">
+            <h5>Traducciones: María Velasco</h5>
+            <h6>Made with Blender + Ardour</h6>
+          </div>
+          <div class="license">
+            <h3>2015, CC-BY-SA-ND </h3>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
