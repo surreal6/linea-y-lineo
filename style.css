@@ -1,0 +1,50 @@
+body {
+  background: #2d2d2d;
+  color: #bdbdbd;
+}
+
+header h2 {
+  font: bold italic 1.85em/1.5 Georgia, Times, “Times New Roman”, serif;
+}
+
+div#no-downloads {
+  background: none;
+}
+
+img {
+  max-width: 100px;
+}
+
+footer {
+  background: none;
+}
+
+footer span.right-tail, footer span.left-tail  {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 29px;
+  background: transparent url(small-ribbon-tail-sprite.png) 0 0 no-repeat;
+  position: absolute;
+  bottom: 5px;
+  z-index: 0;
+}
+
+footer span.right-tail {
+  background-position: -18px 0;
+  right: -11px;
+}
+
+footer span.ribbon-outer {
+  border-bottom: none;
+}
+
+.license {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.license a {
+  font-weight: bold;
+}
