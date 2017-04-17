@@ -1,0 +1,1 @@
+ffmpeg -i videos/linea-y-lineo.webm -i subtitles/lineaylineo_es.vtt -i subtitles/lineaylineo_en.vtt -i subtitles/lineaylineo_fr.vtt -map 0 -map 1 -map 2 -map 3 -vcodec copy -acodec copy linea-y-lineo.mkv
