@@ -1,5 +1,5 @@
 <div class='centered-content'>
-  <video class='video' controls loop style='width: 100%; outline: 0;'>
+  <video class='video' controls autoplay loop style='width: 100%; outline: 0;'>
     <source src="videos/linea-y-lineo.webm" type="video/webm">
     <track label="Español" kind="subtitles" srclang="es" src='subtitles/lineaylineo_es.vtt' default>
     <track label="English" kind="subtitles" srclang="en" src='subtitles/lineaylineo_en.vtt'>
