@@ -90,12 +90,12 @@ footer span.ribbon-inner p {
 }
 
 .license {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .license a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-weight: bold;
 }
 
