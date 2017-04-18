@@ -56,13 +56,13 @@ header h2 {
 }
 
 #lineo-y-linea-un-micro-relato-cartesiano {
-  border-bottom: none;
   width: 100%;
   text-align: center;
   margin-top: 15px !important;
 }
 
 .header-level-1 {
+  border-bottom: none !important;
   color: #a57e38;
 }
 
