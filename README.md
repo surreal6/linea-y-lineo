@@ -17,6 +17,12 @@ Translations by **María Velasco**.
 
 Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
 
+### Embed it!
+
+Add this code to your html form to embed the shotfilm:
+
+    <iframe src="https://surreal6.github.io/linea-y-lineo/projector/" style='width: 100%; height: 900px'></iframe>
+
 ### License
 
 <div class='license'>
