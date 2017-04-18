@@ -1,3 +1,5 @@
+### Lineo y Linea, un micro relato cartesiano
+
 <div class='centered-content'>
   <video class='video' controls autoplay loop style='width: 100%; outline: 0;'>
     <source src="../videos/linea-y-lineo.webm" type="video/webm">
