@@ -23,6 +23,12 @@ Add this code to your html form to embed the shotfilm:
 
     <iframe src="https://surreal6.github.io/linea-y-lineo/projector/" style='width: 100%; height: 900px'></iframe>
 
+### Contribute subtitles
+
+Get [one of this files](https://github.com/surreal6/linea-y-lineo/tree/master/subtitles) and send us a translation via [GitHub](http://github.com/surreal6/lineaylineo). 
+
+Or if you know how, fork and ask for a pull request <i class="em em-ok_hand"></i>
+
 ### License
 
 <div class='license'>
@@ -32,4 +38,7 @@ Add this code to your html form to embed the shotfilm:
   </a>
 </div>
 
+HOIPOI Cinema Boilerplate - first draft
+
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
