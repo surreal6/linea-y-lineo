@@ -19,7 +19,7 @@ Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
 
 ### Embed it!
 
-Add this code to your html form to embed the shotfilm:
+Add this code to your html to embed the shotfilm:
 
     <iframe src="https://surreal6.github.io/linea-y-lineo/projector/" style='width: 100%; height: 900px'></iframe>
 
