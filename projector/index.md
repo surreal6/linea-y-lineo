@@ -1,4 +1,4 @@
-### Lineo y Linea un micro relato cartesiano
+### Linea y Lineo un micro relato cartesiano
 
 <div class='centered-content'>
   <video class='video' controls autoplay loop style='width: 100%; outline: 0;'>
