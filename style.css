@@ -1,11 +1,20 @@
 body {
-  background: #1a1a1a;
+  background: black;
   color: #bdbdbd;
   text-align: center;
 }
 
 a, a:hover {
   color: #77a6c7;
+}
+
+header {
+  z-index: 200;
+}
+
+div.shell {
+  /*background: #303030cc;*/
+  background: black;
 }
 
 header span.ribbon-inner {
@@ -101,4 +110,20 @@ footer span.ribbon-inner p {
 
 #forkme_banner {
   display: none !important;
+}
+
+div.background video {
+  opacity: 0.35;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url('videos/linea-y-lineo.webm') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
 }
