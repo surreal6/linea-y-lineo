@@ -22,6 +22,11 @@ header span.ribbon-inner {
   border: 4px solid #a57e38;
 }
 
+.ribbon-inner {
+  element {
+    z-index: 10;
+}
+
 header span.left-tail, header span.right-tail {
   position: relative;
   display: block;
