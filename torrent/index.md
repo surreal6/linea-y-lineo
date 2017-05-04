@@ -31,7 +31,7 @@ Or if you know how, fork and ask for a pull request <i class="em em-ok_hand"></i
 
 <div class='license'>
   <a href="https://creativecommons.org/licenses/by-sa/3.0/es/">
-    <img src="imgs/CC-BY-SA_icon.svg.png" alt='cc-by-sa'>
+    <img src="../imgs/CC-BY-SA_icon.svg.png" alt='cc-by-sa'>
     cc-by-sa
   </a>
 </div>

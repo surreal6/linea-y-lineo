@@ -49,7 +49,6 @@ client.add(torrentId, function (torrent) {
     track.mode = "showing"; 
     track.src = "../subtitles/lineaylineo_es.vtt";
     elem.appendChild(track);
-    elem.textTracks[0].mode = "showing"; // thanks Firefox    
 
     track = document.createElement("track"); 
     track.kind = "captions"; 
@@ -65,7 +64,7 @@ client.add(torrentId, function (torrent) {
     track.src = "../subtitles/lineaylineo_en.vtt"; 
     elem.appendChild(track);
 
-
+    elem.textTracks[0].mode = "showing"; // thanks Firefox    
   })
 })
 
