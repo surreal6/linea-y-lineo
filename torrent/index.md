@@ -44,4 +44,5 @@ HOIPOI Cinema Boilerplate - first draft
 <!-- Include the latest version of WebTorrent -->
 <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
 
+<!-- activate hoipoi cinema -->
 <script type="text/javascript" src='torrent.js'></script>
