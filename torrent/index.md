@@ -1,34 +1,9 @@
 
 <div id='background' class='background'>
-  <video id='background-video' poster="imgs/poster.jpg" playsinline autoplay muted loop>
-    <source src="videos/linea-y-lineo-background.webm" type="video/webm">
-  </video>
 </div>
 
-<div class='centered-content'>
-  <video id='main-video' class='video' controls loop style='width: 100%; outline: 0;' onpause='onPauseFunction()' onplay='onPlayFunction()'>
-    <source src="videos/linea-y-lineo.webm" type="video/webm">
-    <track label="Español" kind="subtitles" srclang="es" src='subtitles/lineaylineo_es.vtt' default>
-    <track label="English" kind="subtitles" srclang="en" src='subtitles/lineaylineo_en.vtt'>
-    <track label="French" kind="subtitles" srclang="fr" src='subtitles/lineaylineo_fr.vtt'>
-  </video>
+<div id='main-video-div' class='centered-content'>
 </div>
-
-<script type="text/javascript">
-  var backgroundVideo = document.getElementById('background-video');
-  backgroundVideo.playbackRate = 0.25;
-
-  var onPauseFunction = function() {
-    backgroundVideo.style.opacity = 0.3;
-    backgroundVideo.play();
-  };
-
-  var onPlayFunction = function() {
-    backgroundVideo.style.opacity = 0;
-    backgroundVideo.pause();
-  };
-
-</script>
 
 ### Credits
 
@@ -68,3 +43,6 @@ HOIPOI Cinema Boilerplate - first draft
 
 <!-- Include the latest version of WebTorrent -->
 <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+
+<!-- activate hoipoi cinema -->
+<script type="text/javascript" src='torrent.js'></script>
