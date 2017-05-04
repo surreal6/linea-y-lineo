@@ -8,6 +8,11 @@ a, a:hover {
   color: #77a6c7;
 }
 
+
+footer {
+    z-index: 1000;
+}
+
 header {
   z-index: 200;
 }

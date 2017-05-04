@@ -68,3 +68,7 @@ HOIPOI Cinema Boilerplate - first draft
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
 
+<!-- Include the latest version of WebTorrent -->
+<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+
+<script type="text/javascript" src='torrent/torrent.js'></script>
