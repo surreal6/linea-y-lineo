@@ -17,8 +17,6 @@
 <script type="text/javascript">
   var backgroundVideo = document.getElementById('background-video');
   backgroundVideo.playbackRate = 0.25;
-  
-  // var mainVideo = document.getElementById('main-video');
 
   var onPauseFunction = function() {
     backgroundVideo.style.opacity = 0.3;
@@ -70,5 +68,3 @@ HOIPOI Cinema Boilerplate - first draft
 
 <!-- Include the latest version of WebTorrent -->
 <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
-
-<script type="text/javascript" src='torrent/torrent.js'></script>
