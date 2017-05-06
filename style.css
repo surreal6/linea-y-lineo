@@ -136,3 +136,7 @@ div.background video {
   background-size: cover;
   transition: 1s opacity;
 }
+
+section#main_content {
+  padding: 20px 82px 80px;
+}

@@ -14,22 +14,6 @@
   </video>
 </div>
 
-<script type="text/javascript">
-  var backgroundVideo = document.getElementById('background-video');
-  backgroundVideo.playbackRate = 0.25;
-
-  var onPauseFunction = function() {
-    backgroundVideo.style.opacity = 0.3;
-    backgroundVideo.play();
-  };
-
-  var onPlayFunction = function() {
-    backgroundVideo.style.opacity = 0;
-    backgroundVideo.pause();
-  };
-
-</script>
-
 ### Credits
 
 Line and line, a cartesian short story 
@@ -51,7 +35,6 @@ Add this code to your html to embed the shotfilm:
 Get [one of this files](https://github.com/surreal6/linea-y-lineo/tree/master/subtitles) and send us a translation via [GitHub](https://github.com/surreal6/linea-y-lineo/issues/new). 
 
 Or if you know how, fork and ask for a pull request <i class="em em-ok_hand"></i>
-
 ### License
 
 <div class='license'>
@@ -63,8 +46,15 @@ Or if you know how, fork and ask for a pull request <i class="em em-ok_hand"></i
 
 HOIPOI Cinema Boilerplate - first draft
 
+### HOIPOI torrent version
+
+Visit the webtorrent version:
+
+[https://surreal6.github.io/linea-y-lineo/torrent/](https://surreal6.github.io/linea-y-lineo/torrent/)
+
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
 
 <!-- Include the latest version of WebTorrent -->
-<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+<script type="text/javascript" src='main.js'></script>
