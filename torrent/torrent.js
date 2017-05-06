@@ -4,13 +4,14 @@ var torrentId = 'magnet:?xt=urn:btih:f46330192b255f5626494de2290bcc87b2315238&dn
 
 client.add(torrentId, function (torrent) {
   // background video
-
   var file = torrent.files.find(function (file) {
     return file.name.includes('background')
   })
   file.appendTo('#background', function (err, elem) {
         elem.id = 'background-video';
         elem.playbackRate = 0.25;
+        elem.play();
+        elem.loop = true;
     })
 
   // main video
