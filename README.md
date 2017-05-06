@@ -1,60 +1,31 @@
 
-<div id='background' class='background'>
-  <video id='background-video' poster="imgs/poster.jpg" playsinline autoplay muted loop>
-    <source src="videos/linea-y-lineo-background.webm" type="video/webm">
-  </video>
-</div>
+# HOIPOI Cinema Boilerplate - first draft
 
-<div class='centered-content'>
-  <video id='main-video' class='video' controls loop style='width: 100%; outline: 0;' onpause='onPauseFunction()' onplay='onPlayFunction()'>
-    <source src="videos/linea-y-lineo.webm" type="video/webm">
-    <track label="Español" kind="subtitles" srclang="es" src='subtitles/lineaylineo_es.vtt' default>
-    <track label="English" kind="subtitles" srclang="en" src='subtitles/lineaylineo_en.vtt'>
-    <track label="French" kind="subtitles" srclang="fr" src='subtitles/lineaylineo_fr.vtt'>
-  </video>
-</div>
+## Cinema capsules
 
-### Credits
+This piece of code is intended to be a first draft of a boilerplate to create a full working distributed network of clients sharing the same audiovisual piece.
 
-Line and line, a cartesian short story 
+### DEMO
 
-by [Julia Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
+Visit the demo version, featuring Lineo and linea, a cartesian short story:
 
-Translations by **María Velasco**.
+[https://surreal6.github.io/linea-y-lineo](https://surreal6.github.io/linea-y-lineo)
 
-Made with [Blender](https://blender.org) and [Ardour](https://ardour.org/)
+## Why?
 
-### Embed it!
+Because your work want to profit some tecnologies that youtube or vimeo doesn't allow you to explore...
 
-Add this code to your html to embed the shotfilm:
+or because you don't want to sign youtube license or vimeo one. 
 
-    <iframe src="https://surreal6.github.io/linea-y-lineo/projector/" style='width: 100%; height: 900px'></iframe>
+or because you want to avoid censorship.
 
-### Contribute subtitles
+or even you want to promote a hype without die-by-ddos phenomena happens 
 
-Get [one of this files](https://github.com/surreal6/linea-y-lineo/tree/master/subtitles) and send us a translation via [GitHub](https://github.com/surreal6/linea-y-lineo/issues/new). 
+## How?
 
-Or if you know how, fork and ask for a pull request <i class="em em-ok_hand"></i>
+By using github pages, webtorrent.io and instant.io you can create a project webpage that generate a p2p network to distribute your audiovisual work in minutes
+
 ### License
 
-<div class='license'>
-  <a href="https://creativecommons.org/licenses/by-sa/3.0/es/">
-    <img src="imgs/CC-BY-SA_icon.svg.png" alt='cc-by-sa'>
-    cc-by-sa
-  </a>
-</div>
+GPL v3
 
-HOIPOI Cinema Boilerplate - first draft
-
-### HOIPOI torrent version
-
-Visit the webtorrent version:
-
-[https://surreal6.github.io/linea-y-lineo/torrent/](https://surreal6.github.io/linea-y-lineo/torrent/)
-
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
-
-<!-- Include the latest version of WebTorrent -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
-<script type="text/javascript" src='main.js'></script>
