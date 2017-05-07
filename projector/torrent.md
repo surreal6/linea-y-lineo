@@ -1,3 +1,5 @@
+<br>  
+
 ### Linea y Lineo un micro relato cartesiano
 
 <div id="hero">
@@ -28,14 +30,12 @@
     <div id="progressBar"></div>
 </div>
 
-<div id='background' class='background'>
-</div>
 
 ### Credits
 
 Line and line, a cartesian short story 
 
-by [Julia Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
+by [Julia](http://vanidadivinotesoro.blogspot.com.es) [Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
 
 Translations by **María Velasco**.
 
@@ -60,8 +60,6 @@ HOIPOI Cinema Boilerplate - first draft
 
 <!-- Include the latest version of WebTorrent -->
 <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
-
-
   
 <!-- Moment is used to show a human-readable remaining time -->
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
@@ -86,32 +84,14 @@ HOIPOI Cinema Boilerplate - first draft
 
     // main video
     var file = torrent.files.find(function (file) {
-      return file.name.endsWith('.webm')
+      return file.name.includes('linea-y-lineo.webm')
     })
     file.appendTo('#output', function (err, elem) {
-      var backgroundVideo = document.getElementById('background-video');
-      var onPauseFunction = function() {
-          backgroundVideo.style.opacity = 0.3;
-          backgroundVideo.play();
-      };
-      var onPlayFunction = function() {
-          backgroundVideo.style.opacity = 0;
-          backgroundVideo.pause();
-      };
-
       elem.pause();
       elem.id = 'main-video';
       elem.class='video';
       elem.loop = true;
       elem.style='width: 100%; outline: 0;';
-      elem.onpause = function() {
-          backgroundVideo.style.opacity = 0.3;
-          backgroundVideo.play();
-      }; 
-      elem.onplay = function() {
-          backgroundVideo.style.opacity = 0;
-          backgroundVideo.pause();
-      };
 
       track = document.createElement("track"); 
       track.kind = "captions"; 

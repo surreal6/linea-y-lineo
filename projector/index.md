@@ -1,3 +1,5 @@
+<br>
+
 ### Linea y Lineo un micro relato cartesiano
 
 <div class='centered-content'>
@@ -13,7 +15,7 @@
 
 Line and line, a cartesian short story 
 
-by [Julia Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
+by [Julia](http://vanidadivinotesoro.blogspot.com.es) [Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
 
 Translations by **María Velasco**.
 

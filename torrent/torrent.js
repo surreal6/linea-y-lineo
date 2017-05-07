@@ -16,7 +16,7 @@ client.add(torrentId, function (torrent) {
 
   // main video
   var file = torrent.files.find(function (file) {
-    return file.name.endsWith('.webm')
+    return file.name.includes('linea-y-lineo.webm')
   })
   file.appendTo('#main-video-div', function (err, elem) {
     var backgroundVideo = document.getElementById('background-video');
