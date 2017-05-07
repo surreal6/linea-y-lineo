@@ -125,3 +125,55 @@ footer span.ribbon-inner p {
 #forkme_banner {
   display: none !important;
 }
+
+/*torrent banner*/
+
+#progressBar {
+    height: 5px;
+    width: 0%;
+    background-color: #35b44f;
+    transition: width .4s ease-in-out;
+}
+
+.is-seed .show-seed {
+    display: inline;
+}
+
+.is-seed .show-leech {
+    display: none;
+}
+
+.show-seed {
+    display: none;
+}
+
+.is-seed #hero {
+    background-color: #154820;
+    transition: .5s .5s background-color ease-in-out;
+}
+
+#hero {
+    background-color: #2a3749;
+
+}
+
+#status {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    text-align: left;
+}
+
+#status code {
+    font-size: 90%;
+    font-weight: 700;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-bottom: 1px dashed rgba(255,255,255,0.3);
+    background: none;
+}
+
+/*a:link, a:visited {
+    color: #30a247;
+    text-decoration: none;
+}*/
