@@ -30,6 +30,10 @@ Add this code to your html to embed the shotfilm:
 
     <iframe src="https://surreal6.github.io/linea-y-lineo/projector/" style='width: 100%; height: 900px'></iframe>
 
+or this one to embed the webtorrent version:
+
+    <iframe src="https://surreal6.github.io/linea-y-lineo/projector/torrent.html" style='width: 100%; height: 900px'></iframe>
+
 ### Contribute subtitles
 
 Get [one of this files](https://github.com/surreal6/linea-y-lineo/tree/master/subtitles) and send us a translation via [GitHub](https://github.com/surreal6/linea-y-lineo/issues/new). 
