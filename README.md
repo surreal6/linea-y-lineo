@@ -5,21 +5,15 @@
 
 This piece of code is intended to be a first draft of a boilerplate to create a full working distributed network of clients sharing the same audiovisual piece.
 
-### DEMO
-
-Visit the demo version, featuring Lineo and linea, a cartesian short story:
-
-[https://surreal6.github.io/linea-y-lineo](https://surreal6.github.io/linea-y-lineo)
-
 ## Why?
 
 Because your work want to profit some tecnologies that youtube or vimeo doesn't allow you to explore...
 
-or because you don't want to sign youtube license or vimeo one. 
+or because you don't want to sign youtube or vimeo licenses,
 
-or because you want to avoid censorship.
+or because you want to avoid some kind of censorship,
 
-or even you want to promote a hype without die-by-ddos phenomena happens 
+or maybe you want to promote a hype without die-by-ddos. 
 
 ## How?
 
@@ -29,3 +23,8 @@ By using github pages, webtorrent.io and instant.io you can create a project web
 
 GPL v3
 
+## DEMO
+
+Visit the demo version, featuring Lineo and linea, a cartesian short story:
+
+[https://surreal6.github.io/linea-y-lineo/torrent](https://surreal6.github.io/linea-y-lineo/torrent)
