@@ -1,3 +1,5 @@
+<br>  
+
 ### Linea y Lineo un micro relato cartesiano
 
 <div id="hero">
@@ -28,14 +30,12 @@
     <div id="progressBar"></div>
 </div>
 
-<div id='background' class='background'>
-</div>
 
 ### Credits
 
 Line and line, a cartesian short story 
 
-by [Julia Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
+by [Julia](http://vanidadivinotesoro.blogspot.com.es) [Olavarrieta](http://estoyhechountrapo.com/) and [Carlos Padial](http://surreal.asturnazari.com)
 
 Translations by **María Velasco**.
 
@@ -166,5 +166,3 @@ HOIPOI Cinema Boilerplate - first draft
   }
 
 </script>
-
-
