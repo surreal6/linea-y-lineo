@@ -2,10 +2,11 @@
 
 <div class='centered-content'>
   <video class='video' controls autoplay loop style='width: 100%; outline: 0;'>
-    <source src="../videos/linea-y-lineo.webm" type="video/webm">
-    <track label="Español" kind="subtitles" srclang="es" src='../subtitles/lineaylineo_es.vtt' default>
-    <track label="English" kind="subtitles" srclang="en" src='../subtitles/lineaylineo_en.vtt'>
-    <track label="French" kind="subtitles" srclang="fr" src='../subtitles/lineaylineo_fr.vtt'>
+    <source src="../torrent_source/linea-y-lineo/01_linea-y-lineo.avi" type="video/mp4">
+    <source src="../torrent_source/linea-y-lineo/02_linea-y-lineo.webm" type="video/webm">
+    <track label="Español" kind="subtitles" srclang="es" src='../torrent_source/linea-y-lineo/lineaylineo_es.vtt' default>
+    <track label="English" kind="subtitles" srclang="en" src='../torrent_source/linea-y-lineo/lineaylineo_en.vtt'>
+    <track label="French" kind="subtitles" srclang="fr" src='../torrent_source/linea-y-lineo/lineaylineo_fr.vtt'>
   </video>
 </div>
 
