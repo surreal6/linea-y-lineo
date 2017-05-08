@@ -65,7 +65,7 @@ HOIPOI Cinema Boilerplate - first draft
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
 
 <script>
-  var torrentId = 'magnet:?xt=urn:btih:31a9f426aac96b601f1d0950e24449c6e3704577&dn=linea-y-lineo&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com';
+  var torrentId = 'magnet:?xt=urn:btih:b7bcce0065a66c810be2f46fa15cd63e1be8ce7d&dn=linea-y-lineo&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com';
 
   var client = new WebTorrent()
 
@@ -84,7 +84,7 @@ HOIPOI Cinema Boilerplate - first draft
 
     // main video
     var file = torrent.files.find(function (file) {
-      return file.name.includes('linea-y-lineo.webm')
+      return file.name.endsWith('.webm')
     })
     file.appendTo('#output', function (err, elem) {
       elem.pause();
