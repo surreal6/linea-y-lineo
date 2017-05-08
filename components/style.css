@@ -6,6 +6,7 @@ body {
 
 a, a:hover {
   color: #77a6c7;
+  target: "_blank";
 }
 
 

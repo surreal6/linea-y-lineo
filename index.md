@@ -1,4 +1,6 @@
 
+<base target="_blank">
+
 <div id='background' class='background'>
   <video id='background-video' poster="torrent_source/linea-y-lineo/lineaylineo_HD_poster.jpg" playsinline autoplay muted loop>
     <source src="torrent_source/linea-y-lineo/03_linea-y-lineo-background.webm" type="video/webm">
@@ -37,3 +39,11 @@
 <!-- Include the latest version of WebTorrent -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
 <script type="text/javascript" src='main.js'></script>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+  d3.selectAll('iframe').selectAll('head')
+    .append('base')
+      .style('target', '_blank') 
+</script>

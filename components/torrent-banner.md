@@ -3,4 +3,4 @@
 
 Visit the webtorrent version:
 
-[https://surreal6.github.io/linea-y-lineo/torrent/](https://surreal6.github.io/linea-y-lineo/torrent/)
+[https://surreal6.github.io/linea-y-lineo/torrent/](https://surreal6.github.io/linea-y-lineo/torrent/){:target="_blank"}
