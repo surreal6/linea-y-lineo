@@ -1,0 +1,2 @@
+<div id='background' class='background'>
+</div>

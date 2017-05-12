@@ -1,33 +1,19 @@
 
-<base target="_blank">
+{% include main-video.md %}
 
-<div id='background' class='background'>
-  <video id='background-video' poster="torrent_source/linea-y-lineo/lineaylineo_HD_poster.jpg" playsinline autoplay muted loop>
-    <source src="torrent_source/linea-y-lineo/03_linea-y-lineo-background.webm" type="video/webm">
-  </video>
-</div>
-
-<div class='centered-content'>
-  <video id='main-video' class='video' controls loop style='width: 100%; outline: 0;' onpause='onPauseFunction()' onplay='onPlayFunction()'>
-    <source src="torrent_source/linea-y-lineo/01_linea-y-lineo.avi" type="video/mp4">
-    <source src="torrent_source/linea-y-lineo/02_linea-y-lineo.webm" type="video/webm">
-    <track label="Español" kind="subtitles" srclang="es" src='torrent_source/linea-y-lineo/lineaylineo_es.vtt' default>
-    <track label="English" kind="subtitles" srclang="en" src='torrent_source/linea-y-lineo/lineaylineo_en.vtt'>
-    <track label="French" kind="subtitles" srclang="fr" src='torrent_source/linea-y-lineo/lineaylineo_fr.vtt'>
-  </video>
-</div>
+{% include background-video.md %}
 
 <!-- content -->
 
-<iframe src="components/credits.html" style='width: 100%; height: 230px;'></iframe>
+{% include credits.md %}
 
-<iframe src="components/embedIt.html" style='width: 100%; height: 320px;'></iframe>
+{% include embedIt.md %}
 
-<iframe src="components/contribute.html" style='width: 100%; height: 160px;'></iframe>
+{% include contribute.md %}
 
-<iframe src="components/licencia.html" style='width: 100%; height: 180px;'></iframe>
+{% include licencia.md %}
 
-<iframe src="components/torrent-banner.html" style='width: 100%; height: 160px;'></iframe>
+{% include torrent-banner.md %}
 
 <!-- /content -->
 
@@ -38,12 +24,9 @@
 
 <!-- Include the latest version of WebTorrent -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
-<script type="text/javascript" src='main.js'></script>
 
+<!-- load d3 -->
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
-<script>
-  d3.selectAll('iframe').selectAll('head')
-    .append('base')
-      .style('target', '_blank') 
-</script>
+<!-- run main script -->
+<script type="text/javascript" src='main.js'></script>

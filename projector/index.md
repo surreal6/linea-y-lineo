@@ -2,33 +2,16 @@
 
 ### Linea y Lineo un micro relato cartesiano
 
-<div class='centered-content'>
-  <video class='video' controls autoplay loop style='width: 100%; outline: 0;'>
-    <source src="../torrent_source/linea-y-lineo/01_linea-y-lineo.avi" type="video/mp4">
-    <source src="../torrent_source/linea-y-lineo/02_linea-y-lineo.webm" type="video/webm">
-    <track label="Español" kind="subtitles" srclang="es" src='../torrent_source/linea-y-lineo/lineaylineo_es.vtt' default>
-    <track label="English" kind="subtitles" srclang="en" src='../torrent_source/linea-y-lineo/lineaylineo_en.vtt'>
-    <track label="French" kind="subtitles" srclang="fr" src='../torrent_source/linea-y-lineo/lineaylineo_fr.vtt'>
-  </video>
-</div>
+{% include projector-video.md %}
 
-### Credits
+<!-- content -->
 
-Line and line, a cartesian short story 
+{% include credits.md %}
 
-by [Julia](http://vanidadivinotesoro.blogspot.com.es){:target="_blank"} [Olavarrieta](http://estoyhechountrapo.com/){:target="_blank"} and [Carlos Padial](http://surreal.asturnazari.com){:target="_blank"}
+{% include licencia.md %}
 
-Translations by **María Velasco**.
+{% include torrent-banner.md %}
 
-Made with [Blender](https://blender.org){:target="_blank"} and [Ardour](https://ardour.org/){:target="_blank"}
-
-### License
-
-<div class='license'>
-  <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">
-    <img src="../imgs/CC-BY-SA_icon.svg.png" alt='cc-by-sa'>
-    cc-by-sa
-  </a>
-</div>
+<!-- /content -->
 
 <link rel="stylesheet" type="text/css" href="style-projector.css">
