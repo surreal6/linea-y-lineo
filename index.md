@@ -1,8 +1,6 @@
 
 {% include main-video.md %}
 
-{% include background-video.md %}
-
 <!-- content -->
 
 {% include credits.md %}
