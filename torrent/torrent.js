@@ -57,7 +57,7 @@ var torrentId = 'magnet:?xt=urn:btih:b7bcce0065a66c810be2f46fa15cd63e1be8ce7d&dn
 
       track = document.createElement("track"); 
       track.kind = "captions"; 
-      track.label = "Castellano"; 
+      track.label = "Castellano";
       track.srclang = "es"; 
       track.mode = "showing"; 
       track.src = "../subtitles/lineaylineo_es.vtt";

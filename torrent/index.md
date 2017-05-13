@@ -20,11 +20,11 @@
 
 <link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
 
-<!-- Include the latest version of WebTorrent -->
-<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
-
 <!-- Moment is used to show a human-readable remaining time -->
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
+
+<!-- Include the latest version of WebTorrent -->
+<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
 
 <!-- activate hoipoi cinema -->
 <script type="text/javascript" src='torrent.js'></script>
