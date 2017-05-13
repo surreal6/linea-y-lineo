@@ -25,4 +25,4 @@ By using github pages, webtorrent.io and instant.io you can create a project web
 
 #### Not working?
 
-###### [Visit the normal version]({{base}}..)
+###### [Visit the normal version]({{site.baseurl}})
