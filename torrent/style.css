@@ -18,8 +18,7 @@ header {
 }
 
 div.shell {
-  /*background: #303030cc;*/
-  background: black;
+  background: none;
 }
 
 header span.ribbon-inner {
@@ -132,7 +131,6 @@ div.background video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  /*background: url('videos/linea-y-lineo.webm') no-repeat;*/
   background-size: cover;
   transition: 1s opacity;
 }
@@ -197,8 +195,3 @@ section#main_content {
     border-bottom: 1px dashed rgba(255,255,255,0.3);
     background: none;
 }
-
-/*a:link, a:visited {
-    color: #30a247;
-    text-decoration: none;
-}*/

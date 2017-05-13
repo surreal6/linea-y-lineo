@@ -1,6 +1,7 @@
-<link rel="stylesheet" type="text/css" href="style.css">
 ### HOIPOI torrent version
 
-Visit the webtorrent version:
+#### Cinema capsule
 
-[https://surreal6.github.io/linea-y-lineo/torrent/](https://surreal6.github.io/linea-y-lineo/torrent/){:target="_blank"}
+This piece of code is intended to be a first draft of a boilerplate to create a full working distributed network of clients sharing the same audiovisual piece.
+
+###### [Visit the webtorrent version]({{base}}/torrent/)

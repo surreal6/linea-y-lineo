@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="style.css">
 ### Credits
 
 Line and line, a cartesian short story 

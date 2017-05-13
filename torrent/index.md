@@ -17,6 +17,7 @@
 <!-- /content -->
 
 <link rel="stylesheet" type="text/css" href="style.css">
+
 <link rel="stylesheet" type="text/css" href="https://afeld.github.io/emoji-css/emoji.css">
 
 <!-- Include the latest version of WebTorrent -->
@@ -26,4 +27,4 @@
 <script src="http://momentjs.com/downloads/moment.min.js"></script>
 
 <!-- activate hoipoi cinema -->
-<script type="text/javascript" src='torrent-nobackground.js'></script>
+<script type="text/javascript" src='torrent.js'></script>

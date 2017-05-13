@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="style.css">
 ### Embed it!
 
 Add this code to your html to embed the shotfilm:
